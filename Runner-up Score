@@ -1,0 +1,9 @@
+n = int(input())
+A = list(map(int, input().split()))
+lar=max(A)
+
+for i in range(n):
+    if lar==max(A):
+        A.remove(lar)
+
+print(max(A))
