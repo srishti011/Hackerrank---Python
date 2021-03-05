@@ -1,0 +1,7 @@
+import numpy
+
+n = list(map(int,input().split()))
+
+arr = numpy.array(n)
+arr.shape = (3,3)
+print(arr)
